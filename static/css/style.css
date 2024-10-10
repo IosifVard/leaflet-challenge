@@ -8,3 +8,18 @@ body,
 html {
   height: 100%;
 }
+
+/* Add these styles for the legend for better display*/
+.legend i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #000; /* Adds a black border around the color boxes */
+}
+
+.legend {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
